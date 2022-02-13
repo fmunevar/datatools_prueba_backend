@@ -1,6 +1,6 @@
 # Información general del proyecto
 
-El proyecto desarrollado en JEE expone una Api/REST que cuenta con las siguienes operaciones:
+El proyecto desarrollado en JEE expone una Api/REST que cuenta con los siguienes servicios:
 1. login
 2. Companies: CRUD
 3. Users: CRUD
@@ -9,31 +9,36 @@ El proyecto desarrollado en JEE expone una Api/REST que cuenta con las siguienes
 6. Enroll vehicle: afilia un vehículo a una compañía
 7. Assign vehicle: asocia un usuario a un vehículo
 
+![image](https://user-images.githubusercontent.com/41402595/153773680-91f45969-1eff-4ba9-95f2-8deaf2da71b2.png)
+
+
 # Información técnica
 El proyecto cuenta con las siguientes clases y modelos:
 ## Modelos para mapeo de datos
-AppPermissions
-Company
-Driving
-Enrollment
-User
-UserLoginInfo
-Vehicle
++ AppPermissions
++ Company
++ Driving
++ Enrollment
++ User
++ UserLoginInfo
++ Vehicle
 
 ## Clases de manejo de lógicas
-CompanyRepository
-CompanyResource
-UserLoginInfoRepository
-UserLoginInfoResource
-UserRepository
-UserResource
-VehicleRepository
-VehicleResource
++ CompanyRepository
++ CompanyResource
++ UserLoginInfoRepository
++ UserLoginInfoResource
++ UserRepository
++ UserResource
++ VehicleRepository
++ VehicleResource
 
 # Información adicional
 + Corre bajo servidor de aplicaciones ApacheTomcat v.10
 + Conexión JDBC hacia la base de datos
 + Implementa librería crypto-js para hasheo de contraseñas
+
+NOTA: Se adjunta colección para pruebas.
 
 ********************************************
 
