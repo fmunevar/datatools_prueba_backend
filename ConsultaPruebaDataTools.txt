@@ -1,0 +1,15 @@
+SELECT
+	v.plate "Placa"
+    , c.id_type "Tipo ID"
+    , c.id_number "ID Empresa"
+    , c.name "Nombre Empresa"
+    , COUNT(u.id) "Total Conductores"
+FROM
+	vehicles v
+	JOIN enrollment e ON e.vehicle_id=v.id
+    JOIN companies c ON c.id=e.company_id
+    JOIN driving d ON d.vehicle_id=v.id
+    JOIN users u ON u.id=d.user_id
+GROUP BY v.plate, c.id_type, c.id_number, c.name
+HAVING COUNT(u.id)>2
+ORDER BY v.plate
