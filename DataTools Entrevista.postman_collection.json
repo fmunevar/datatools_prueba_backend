@@ -1,0 +1,603 @@
+{
+	"id": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+	"name": "DataTools Entrevista",
+	"description": "",
+	"order": [
+		"bbde9f53-307d-5e5c-8019-07a03d3de11f",
+		"259e7171-465e-8286-a80c-65fdaa68f08e",
+		"978a212d-14f4-08d1-5027-e485d392d45a",
+		"31291055-c893-359a-d574-d717a73acba2",
+		"7af52b58-1ecf-8f57-ee2c-2420ff14b801",
+		"cda00ad1-eaae-2084-40c6-363f55315d5b",
+		"41cc1de4-455b-17cf-2eed-89f2ff7504ae",
+		"6d6ad765-1f70-4f24-340a-6b95940e3f7b",
+		"be9b258b-e553-7637-9bff-15d4efcdd9df",
+		"6ca31f9c-8544-3cc8-e233-80ce7135b40b",
+		"12f229f3-dcfe-e542-8186-ca71920996cb",
+		"512bdd88-6802-4b58-c881-377b8316d286",
+		"e0ef72c2-a6b0-bfc0-954d-e091085abefc",
+		"99fe8e6a-29e2-475d-efe9-e9666f932909",
+		"619c717f-9845-9b80-838f-03aff4f060ae",
+		"d15679b5-1292-48d0-07fd-348c0a0656b7",
+		"03981573-313b-6357-b104-591c40d2d004",
+		"498c7d54-3454-4343-c153-067e7ad02aeb",
+		"c72d333a-4723-9fa0-b1c9-672ce7f2d70e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1644133051834,
+	"owner": "5079592",
+	"public": false,
+	"requests": [
+		{
+			"id": "03981573-313b-6357-b104-591c40d2d004",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/vehicle/8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644249095796,
+			"name": "Datatools Prueba - deleteVehicle",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "12f229f3-dcfe-e542-8186-ca71920996cb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/user/1011223377",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644218175423,
+			"name": "Datatools Prueba - deleteUser",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "259e7171-465e-8286-a80c-65fdaa68f08e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/company/companies",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644206399036,
+			"name": "Datatools Prueba - getCompanies",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":4,\n\t\"name\": \"Alienjuanes\",\n\t\"points\": 400\n}"
+		},
+		{
+			"id": "31291055-c893-359a-d574-d717a73acba2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/company/new",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644214054383,
+			"name": "Datatools Prueba - createCompany",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "41cc1de4-455b-17cf-2eed-89f2ff7504ae",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/user/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644215621026,
+			"name": "Datatools Prueba - getUsers",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":4,\n\t\"name\": \"Alienjuanes\",\n\t\"points\": 400\n}"
+		},
+		{
+			"id": "498c7d54-3454-4343-c153-067e7ad02aeb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/vehicle/enroll",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644251665500,
+			"name": "Datatools Prueba - enrollVehicle",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"company_id\": 3,\n\t\"vehicle_id\": 9,\n\t\"enrollment_date\":\"2022-02-01\",\n\t\"disenrollment_date\":\"\"\n}"
+		},
+		{
+			"id": "512bdd88-6802-4b58-c881-377b8316d286",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/vehicle/vehicles",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644247324187,
+			"name": "Datatools Prueba - getVehicles",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":4,\n\t\"name\": \"Alienjuanes\",\n\t\"points\": 400\n}"
+		},
+		{
+			"id": "619c717f-9845-9b80-838f-03aff4f060ae",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/vehicle/new",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644248550348,
+			"name": "Datatools Prueba - createVehicle",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"plate\": \"HHH456\",\n\t\"engine\": \"1,5\",\n\t\"chassis\": \"8HHHH88HHHH888888\",\n\t\"model\": \"2015\",\n\t\"registration_date\": \"2015-01-14\",\n\t\"seated_passengers\" : \"4\",\n\t\"standing_passengers\": 0,\n\t\"gross_weight\": 5000,\n\t\"net_weight\": 4000,\n\t\"doors\": 4,\n\t\"brand\": \"Renault\",\n\t\"lineup\": \"Clio\"\n}"
+		},
+		{
+			"id": "6ca31f9c-8544-3cc8-e233-80ce7135b40b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/user/edit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644217878827,
+			"name": "Datatools Prueba - updateUser",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"1011223377\",\n\t\"id_type\": \"CC\",\n\t\"name\": \"Nuevo Conductor\",\n\t\"lastname\": \"De Bus\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"2002202\",\n\t\"company_id\": 1,\n\t\"position_id\": 2,\n\t\"rol_id\": 2\n}"
+		},
+		{
+			"id": "6d6ad765-1f70-4f24-340a-6b95940e3f7b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/company/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644216535754,
+			"name": "Datatools Prueba - getUser",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "7af52b58-1ecf-8f57-ee2c-2420ff14b801",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/company/edit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644214050498,
+			"name": "Datatools Prueba - updateCompany",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":7,\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-7\",\n\t\"name\": \"KARS\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "978a212d-14f4-08d1-5027-e485d392d45a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/company/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644212003412,
+			"name": "Datatools Prueba - getCompany",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "99fe8e6a-29e2-475d-efe9-e9666f932909",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/user/check_assignments/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644478059317,
+			"name": "Datatools Prueba - checkAssignments",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "bbde9f53-307d-5e5c-8019-07a03d3de11f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644567479792,
+			"name": "Datatools Prueba - login",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\": \"usuario\",\n\t\"password\": \"/eD7Pk7JnKUbbdgYSPIv66yEzE8YWmKWuNmrs9iC4O4=\",\n\t\"hashed\": true\n}"
+		},
+		{
+			"id": "be9b258b-e553-7637-9bff-15d4efcdd9df",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/user/new",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644216860252,
+			"name": "Datatools Prueba - createUser",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"1011223344\",\n\t\"id_type\": \"CC\",\n\t\"name\": \"Nuevo Conductor\",\n\t\"lastname\": \"De Carro\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"2002202\",\n\t\"company_id\": 1,\n\t\"position_id\": 2,\n\t\"rol_id\": 2\n}"
+		},
+		{
+			"id": "c72d333a-4723-9fa0-b1c9-672ce7f2d70e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/user/vehicle_assignment",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644250771769,
+			"name": "Datatools Prueba - assignVehicle",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"user_id\": 75989678,\n\t\"vehicle_id\": 9\n}"
+		},
+		{
+			"id": "cda00ad1-eaae-2084-40c6-363f55315d5b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/company/7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644213957020,
+			"name": "Datatools Prueba - deleteCompany",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		},
+		{
+			"id": "d15679b5-1292-48d0-07fd-348c0a0656b7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/vehicle/edit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644248964390,
+			"name": "Datatools Prueba - updateVehicle",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"1011223377\",\n\t\"id_type\": \"CC\",\n\t\"name\": \"Nuevo Conductor\",\n\t\"lastname\": \"De Bus\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"2002202\",\n\t\"company_id\": 1,\n\t\"position_id\": 2,\n\t\"rol_id\": 2\n}"
+		},
+		{
+			"id": "e0ef72c2-a6b0-bfc0-954d-e091085abefc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/prueba_datatools/webapi/vehicle/1",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1644247702263,
+			"name": "Datatools Prueba - getVehicle",
+			"description": "",
+			"collectionId": "94f2d4cd-01f4-dd75-495e-cc927f2eb946",
+			"responses": [],
+			"rawModeData": "{\n\t\"id_type\":\"NIT\",\n\t\"id_number\": \"800123456-4\",\n\t\"name\": \"Rent-a-car\",\n\t\"address\": \"Cra 56 No. 23-45\",\n\t\"zone_id\": 17,\n\t\"phone\" : \"7675489\"\n}"
+		}
+	]
+}
