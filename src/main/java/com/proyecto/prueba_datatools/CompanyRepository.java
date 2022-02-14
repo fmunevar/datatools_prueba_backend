@@ -21,7 +21,26 @@ public class CompanyRepository {
 		List<Company> companiesList = new ArrayList<>();
 		
 		try {
-			String sql = "SELECT * FROM companies";
+//			String sql = "SELECT * FROM companies";
+			String sql = "SELECT \n"
+					+ "	c.id,\n"
+					+ "    c.id_type,\n"
+					+ "    c.id_number,\n"
+					+ "    c.name,\n"
+					+ "    c.address,\n"
+					+ "    c.zone_id,\n"
+					+ "    u.location,\n"
+					+ "    c.phone\n"
+					+ "FROM \n"
+					+ "	companies c JOIN (\n"
+					+ "        SELECT \n"
+					+ "            z1.id,\n"
+					+ "            CONCAT(z3.name,\" → \",z2.name,\" → \",z1.name) as \"location\"\n"
+					+ "        FROM \n"
+					+ "            zones z1 \n"
+					+ "            JOIN zones z2 ON z2.id=z1.parent_id\n"
+					+ "            JOIN zones z3 ON z3.id=z2.parent_id\n"
+					+ "    ) as u ON u.id=c.zone_id";
 			Statement st = this.jdbc.connection.createStatement();
 			ResultSet rs = st.executeQuery(sql);
 			while(rs.next()) {
@@ -32,7 +51,8 @@ public class CompanyRepository {
 				company.setName(rs.getString(4));
 				company.setAddress(rs.getString(5));
 				company.setZone_id(rs.getInt(6));
-				company.setPhone(rs.getString(7));
+				company.setZone(rs.getString(7));
+				company.setPhone(rs.getString(8));
 				
 				companiesList.add(company);
 			}

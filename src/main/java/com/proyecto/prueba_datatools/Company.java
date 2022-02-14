@@ -7,6 +7,7 @@ public class Company {
 	private String name;
 	private String address;
 	private int zone_id;
+	private String zone;
 	private String phone;
 	
 	public int getId() {
@@ -50,6 +51,12 @@ public class Company {
 	}
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+	public String getZone() {
+		return zone;
+	}
+	public void setZone(String zone) {
+		this.zone = zone;
 	}
 	
 }
